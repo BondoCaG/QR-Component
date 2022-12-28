@@ -1,0 +1,56 @@
+/* --------------------GENERAL design-------------------- */
+
+/* Universal selector used to delete all margin/padding
+ and use borderbox for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #555;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* -----------------QR Element's design */
+/* container design */
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 32rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 1.6rem 1.6rem 4rem 1.6rem;
+}
+/* img design */
+.qr-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+/* heading design */
+.heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f314f;
+  text-align: center;
+  line-height: 28px;
+}
+/* paragraph design */
+.qr-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #7d889e;
+  text-align: center;
+  line-height: 19px;
+}
